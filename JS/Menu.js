@@ -8,7 +8,6 @@ $(document).ready(function ()
     {
         if(confirm("Are you sure you want to close the page ?"))
         {
-            window.open('', '_self', '');
             window.close();
         }
     });
