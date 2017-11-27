@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint</title>
+	<script src="JS/jquery-3.2.1.min.js"></script>
+	<script src="JS/Menu.js"></script>
+	<script src="JS/distributor.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/customTools.css">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap/bootstrap.grid.css">
+
+
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row">
+				<div class="col-md-10">
+					<ul id="main-nav">
+					<li id="menu-icon"><img src="icons/menu.png"></li>
+					<li id="file">File
+	  					<ul id="sub-menu">
+	 						<li><a id="SaveButton" href="">Save</a></li>
+	  						<li id="ExitButton">Exit</li>
+	  					</ul>
+	  				</li>
+					<li id="edit">Edit
+						<ul id="sub-menu-edit">
+							<li id="clear"><a href="">Clear</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+				<div class="col-md-2">
+					<div id="brushCustom">
+						<img id="backR" src="icons/leftArrow.png">
+						<span id="defR">10</span>
+						<img id="nextR" src="icons/rightArrow.png">
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<div>
+		<div class="row">
+			<div class="col-md-0.5">
+				<div id="tools_menu">
+					<ul id="tools">
+						<li><img id="pen" src="icons/pen.png"></li>
+						<li><img id="line" src="icons/line.png"></li>
+						<li><img id="sircle" src="icons/circle.png"></li>
+						<li><img id="square" src="icons/square.png"></li>
+						<li><img id="rect" src="icons/rect.png"></li>
+						<li><img id="color" src="icons/color.png"></li>
+						<li><img id="guma" src="icons/x.png"></li>
+						<li><img id="SaveButtonIcon" src="icons/save.png"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-11">
+				<canvas id="canvas" >
+
+
+				</canvas>
+			</div>
+			<div class="col-md-0.2">
+				<div id="colors"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

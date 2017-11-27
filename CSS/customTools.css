@@ -1,0 +1,42 @@
+#brushCustom
+{
+	text-align: center;
+}
+#brushCustom img
+{
+	width: 20px;
+	height: 20px;
+}
+#brushCustom img:hover
+{
+	cursor: pointer;
+}
+#brushCustom span
+{
+	padding: 0 20px;
+	vertical-align: top;
+}
+#brushCustom img , #brushCustom span
+{
+	display: inline-block;
+}
+
+
+/*clor palette*/
+.switch
+{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border:0.5px solid black;
+}
+.switch:hover
+{
+	cursor: pointer;
+}
+.switch.active 
+{
+	border: 2px solid black;
+}
+
+
