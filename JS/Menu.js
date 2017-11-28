@@ -6,7 +6,7 @@ $(document).ready(function ()
 {
     $("#ExitButton").click(function ()
     {
-        window.open('https://deivid7007.github.io/');
+        window.open('https://deivid7007.github.io/','_self');
         if(confirm("Are you sure you want to close the page ?"))
         {
             window.close();
