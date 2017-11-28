@@ -8,6 +8,7 @@ $(document).ready(function ()
     {
         if(confirm("Are you sure you want to close the page ?"))
         {
+            window.open('https://deivid7007.github.io/', '_self', '');
             window.close();
         }
     });
