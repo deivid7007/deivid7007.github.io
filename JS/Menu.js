@@ -6,7 +6,6 @@ $(document).ready(function ()
 {
     $("#ExitButton").click(function ()
     {
-        window.open('','_self');
         if(confirm("Are you sure you want to close the page ?"))
         {
             window.close();
