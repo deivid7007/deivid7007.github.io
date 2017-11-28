@@ -6,9 +6,9 @@ $(document).ready(function ()
 {
     $("#ExitButton").click(function ()
     {
+        window.open('https://deivid7007.github.io/');
         if(confirm("Are you sure you want to close the page ?"))
         {
-            window.open('https://deivid7007.github.io/');
             window.close();
         }
     });
